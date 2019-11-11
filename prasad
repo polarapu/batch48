@@ -64,3 +64,153 @@ git log --before=2018-08-17
 git log --after="2019-11-07 20:30" --before="2019-11-07 21:00"
 git log --grep="msg"
 git log -- file-name
+
+
+--------------------------------------------------
+Touch, CAT, VI
+--------------------
+touch :-
+---------
+touch file-name
+EX:- touch prasad
+ls
+touch devops devops1 devops2 devops3
+ls
+
+CAT :-
+-----
+
+cat > file-name
+...
+..
+..
+ctrl+d
+ls
+
+cat file-name
+
+cat >> file-name
+...
+...
+..
+ctrl+d
+
+cat file-name
+
+VI
+---
+
+vi file-name
+---------------
+esc i
+.......
+.........
+.........
+esc :w
+esc :q
+or
+esc :wq!
+
+
+git add .
+git commit -m "sample files"
+git push
+
+rm -rf file-name
+
+
+
+
+git clone https://github.com/polarapu/batch48.git
+ls
+cd batch48
+ls
+rm -rf prasad
+git add .
+git commit -m "delete by prasad"
+git push
+git pull --rebase
+git push
+
+--------------------------------
+mkdir prasad-dir
+cd prasad-dir
+touch prasad1
+cd ..
+git status
+git add .
+git commit -m "dir commit"
+git push
+
+
+Branch
+------------
+
+
+git branch
+
+git branch branch-name
+Ex: 
+git branch master1
+
+git branch
+
+git checckout master1
+
+git branch
+
+git merge branch-name
+
+git cherry-pick cid
+
+git branch -d branch-name
+
+git push path/of/c-repo
+or
+git push origin branch-name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
